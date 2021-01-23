@@ -18,7 +18,7 @@ public class WebCrawlerApplication {
 			System.out.println("please input a rank number or all");
 			return;
 		}
-		System.out.println(args[0]);
+		//System.out.println(args[0]);
 
 		// 读取txt文件
 		List<webCrawlerUrlList> txtlist = readTxtToList.getList();
